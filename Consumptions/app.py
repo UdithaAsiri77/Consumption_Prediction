@@ -3,9 +3,9 @@ import pandas as pd
 import pickle
 
 # Load the trained models
-electricity_model = pickle.load(open('electricity_pkl.sav', 'rb'))
-steam_model = pickle.load(open('steam_pkl.sav', 'rb'))
-water_model = pickle.load(open('water_pkl.sav', 'rb'))
+electricity_model = pickle.load(open('Consumptions/electricity_pkl.sav', 'rb'))
+steam_model = pickle.load(open('Consumptions/steam_pkl.sav', 'rb'))
+water_model = pickle.load(open('Consumptions/water_pkl.sav', 'rb'))
 
 st.markdown(
     "<div style='text-align: center; font-size: 46px; font-weight: bold;'>Multi-Consumption Prediction App</div>",
